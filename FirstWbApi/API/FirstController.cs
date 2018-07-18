@@ -18,7 +18,7 @@ namespace FirstWbApi.Controllers
             CCFirstClass clas = new CCFirstClass();
             var objlist = clas.GetAll();
             return Ok(objlist);
-
+            //sbyte sd sdf
 
 
 
