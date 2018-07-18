@@ -1,0 +1,50 @@
+﻿<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="~/Angular/Login.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    
+</head>
+
+<body ng-app="myapp">
+    <div ng-controller="LoginCtrl">
+        <p>
+            UserId:
+        </p>
+        <div>
+            <input type="text" model="UserId" name="userId" id="UserId" />
+        </div>
+        <br />
+
+        <p>
+            UserName:
+        </p>
+        <div>
+            <input type="text" model="UserName" name="UserName" id="UserName" />
+        </div>
+        <br />
+
+        <p>
+            Password:
+        </p>
+        <div>
+            <input type="text" model="Password" name="Password" id="password" />
+        </div>
+        <br />
+
+
+        <div ng-controller="LoginCtrl">
+         
+            <button ng-click="GetUser();">Submit </button>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
+
+
+

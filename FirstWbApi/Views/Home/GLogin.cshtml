@@ -1,0 +1,121 @@
+﻿@{
+
+    Layout = null;
+
+}
+<link rel="stylesheet" href="~/Content/bootstrap-login.css" />
+<style>
+    .glyphicon {
+        top: 0;
+    }
+
+    .checkbox input[type="checkbox"] {
+        position: static;
+        margin: 0;
+        vertical-align: sub;
+    }
+</style>
+<div id="Loginpage">
+    <header class="container">
+        <div id="menu" class="navbar navbar-default navbar-fixed-top login-banner">
+            <div id="logo" class="company-logo">
+                <img src="Content/themes/images/product-logo.svg" height="60" alt="Active Plant Material" />
+            </div>
+        </div>
+    </header>
+</div>
+<div class="clearfix"></div>
+<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="container login-main-block">
+        <div class="row">
+            <div class="account-wall">
+                <div class="text-center project-logo"><img src="Content/themes/images/Tanap.jpg" /></div>
+
+                <h1 class="text-center project-name"></h1>
+                <div class="form-signin" id="UserLogin">
+                    <form role="form" name="userlogin">
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" id="LoginName" class="form-control" placeholder="{{ 'Login_textbox_palceholder_name_value' | translate }}" data-ng-model="loginData.LoginName" required autofocus>
+                                    <label for="userName" class="input-group-addon glyphicon glyphicon-user"></label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" id="userPassword" class="form-control" placeholder="{{ 'Login_textbox_palceholder_password_value' | translate }}" data-ng-model="loginData.Password" required>
+                                    <label for="userPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
+                                </div>
+                            </div>
+                            <div data-ng-hide="message == ''" class="alert alert-danger" style="display:none;">
+                                {{message}}
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" ng-disabled="userlogin.$invalid" type="submit" data-ng-click="login(loginData)">{{ 'Login_btn_text' | translate }} <i class="fa fa-sign-in"></i></button>
+                            <div class="col-md-12">
+                                <label class="checkbox pull-left">
+                                    <input type="checkbox" value="remember-me">
+                                    {{ 'Login_Remember_me_lbl' | translate }}
+                                </label>
+                                <span class="forgot-password-wrapper">
+                                    <a href="" id="btnforgotPassword">{{ 'Forgot_Password' | translate }}</a>
+                                </span>
+                                <span class="clearfix"></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-signin" id="forgotPassword" style="display:none;">
+                    <form role="form" name="ForgotPassword">
+                        <div class="row">
+                            <div class="forgot-password-heading"><span class="pull-right close-action"><i class="fa fa fa-close"></i></span><h4>{{ 'Forgot_Password' | translate }} </h4></div>
+
+                            <p>{{ 'Forgot_Password_First_Line_Text' | translate }}</p>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input autocomplete="off" type="email" id="ForgotLoginName" ng-blur="CheckEmailAddress()" class="form-control" placeholder="{{ 'EMail_Required' | translate }}" data-ng-model="mForgotPassword">
+                                    <label for="userName" class="input-group-addon glyphicon glyphicon-user"></label>
+                                </div>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" ng-disabled="ForgotPassword.$invalid" type="submit" data-ng-click="ForgetPassword()">{{ 'Submit' | translate }} <i class="fa fa-sign-in"></i></button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active" data-interval="7000">
+            <img src="Content/themes/images/login/login-bg-1.jpg" class="img-responsivex" />
+        </div>
+        <div class="item" data-interval="7000">
+            <img src="Content/themes/images/login/login-bg-2.jpg" class="img-responsivex" />
+        </div>
+        <div class="item" data-interval="7000">
+            <img src="Content/themes/images/login/login-bg-3.jpg" class="img-responsivex" />
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="pull-left">
+        <span>{{ 'Copyright' | translate }} {{currentYear}} {{ 'Petro_IT' | translate }}</span>
+    </div>
+    <div class="pull-right">
+        <ul>
+            <li class="footerTxt">{{ 'Product_by' | translate }}</li>
+            <li><img src="Content/themes/images/logo.svg" height="15" alt="Petro IT" /></li>
+            @*<li><img src="Content/themes/images/logo-active-plant.svg" height="15" alt="Active Plant" /></li>*@
+        </ul>
+    </div>
+</div>
+
+<script src="Scripts/angular-ui/bootstrap.min.carousel.support.js"></script>
+<script src="Scripts/angular-ui/jquery.carousel.fullscreen.js"></script>
+<script type="text/javascript">
+    jQuery('.carousel').carousel({
+        interval: '8000',
+        pause: 'none'
+    })
+</script>

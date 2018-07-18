@@ -1,0 +1,33 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="~/Angular/Controller.js"></script>
+    <script src="~/Angular/angulercdn.js"></script>
+    <script src="~/Angular/Module.js"></script>
+    <script src="~/Angular/Services.js"></script>
+</head>
+<body ng-app="MyApp">
+    <div align="center"><b><u><font size="8px">Student Records</font></u></b></div>
+    <div ng-controller="MyCtrl" align="center">
+        <table border="1">
+            <tr bgcolor="gray">
+
+                <td> MemberId</td>
+                <td> Name</td>
+                <td>Email</td>
+                <td>Phone</td>
+                <td>Gender</td>
+            </tr>
+            <tr ng-repeat="Item in Membership">
+                <td><span>{{Item.MemberId}}</span></td>
+                <td><span>{{Item.Name}}</span></td>
+                <td><span>{{Item.Email}}</span></td>
+                <td><span>{{Item.Phone}}</span></td>
+                <td><span>{{item.Gender}}</span></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

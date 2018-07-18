@@ -1,0 +1,50 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/angulercdn.js"></script>
+   <script src="~/Script.js"></script>
+    
+   
+</head>
+   <body ng-app="myapp"> 
+ 
+    <h4>Membership Record</h4>
+   <div ng-controller="myctrl" align="center" >
+        @*<div ng-controller="LoginCtrl" align="center">*@
+            <table border="1">
+                <tr bgcolor="gray">
+
+                    <td> MemberID</td>
+                    <td> Name</td>
+                    <td>Birth</td>
+                    <td>Gender</td>
+                    <td>WorkoutType</td>
+                    <td>Phone</td>
+                    <td>Amount</td>
+                    <td>JoiningDate</td>
+                    <td>Age</td>
+                    <td>Email</td>
+                    <td>Address</td>
+                </tr>
+
+                <tr ng-repeat="Item in Mem ">
+                    <td>{{Item.MemberID}}</td>
+                    <td><span>{{Item.Name}}</span></td>
+                    <td><span>{{Item.Birth}}</span></td>
+                    <td><span>{{Item.Gender}}</span></td>
+                    <td><span>{{item.WorkoutType}}</span></td>
+                    <td><span>{{Item.Phone}}</span></td>
+                    <td><span>{{Item.Amount}}</span></td>
+                    <td><span>{{Item.JoiningDate}}</span></td>
+                    <td><span>{{item.Age}}</span></td>
+                    <td><span>{{Item.Email}}</span></td>
+                    <td><span>{{Item.Address}}</span></td>
+
+                </tr>
+            </table>
+        </div>
+</body>
+</html>
+
+

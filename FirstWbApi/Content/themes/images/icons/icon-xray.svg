@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.77532in" height="1.45216in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1.77532 1.45216"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
+	<font-face 
+		font-family="Arial">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="A" horiz-adv-x="722"><path d="M718.331 0l-157.333 0 -62.5026 162.669 -286.16 0 -58.9999 -162.669 -153.336 0 278.835 715.838 152.831 0 286.665 -715.838zm-266.164 283.162l-98.6628 265.669 -96.6745 -265.669 195.337 0z"/></glyph>
+   <glyph unicode="Y" horiz-adv-x="666"><path d="M260.663 0l0 301.335 -262.167 414.503 169.5 0 168.5 -283.173 165.008 283.173 166.492 0 -263.166 -415.503 0 -300.336 -144.167 0z"/></glyph>
+   <glyph unicode="R" horiz-adv-x="722"><path d="M73.1652 0l0 715.838 304.333 0c76.5031,0 132,-6.5006 166.667,-19.337 34.6664,-12.8364 62.5026,-35.6657 83.3333,-68.4984 20.8308,-33.0078 31.1637,-70.5073 31.1637,-112.838 0,-53.6634 -15.824,-98.1683 -47.3276,-133.164 -31.5037,-34.8313 -78.8313,-57.0013 -141.664,-66.0053 31.3286,-18.3274 57.1661,-38.3236 77.4921,-60.164 20.3363,-21.8301 47.6676,-60.4937 82.1692,-116.166l87.5057 -139.665 -172.838 0 -104.504 155.829c-37.1595,55.6723 -62.4923,90.6684 -76.1631,105.174 -13.6708,14.495 -28.1658,24.3335 -43.4953,29.8348 -15.3398,5.32616 -39.5084,7.9944 -72.8355,7.9944l-29.1651 0 0 -298.832 -144.672 0zm144.672 413.164l106.832 0c69.3328,0 112.663,2.83307 130.002,8.67433 17.1632,5.83096 30.6589,15.9991 40.4974,30.3293 9.66333,14.3302 14.6701,32.163 14.6701,53.6634 0,24.1686 -6.5006,43.5056 -19.337,58.3405 -12.8364,14.8247 -30.9989,24.1583 -54.4979,28.1658 -11.6722,1.4938 -46.8331,2.32826 -105.503,2.32826l-112.663 0 0 -181.502z"/></glyph>
+   <glyph unicode="X" horiz-adv-x="666"><path d="M0 0l244.667 373.502 -221.667 342.33 168.832 0 143.67 -229.996 140.498 229.996 167.499 0 -222.665 -347.664 244.667 -368.168 -174.335 0 -158.667 247.501 -159.166 -247.501 -173.333 0z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+    .fil0 {fill:#373435}
+    .fil1 {fill:#FEFEFE}
+    .fnt1 {font-weight:bold;font-size:0.382158;font-family:'Arial'}
+    .fnt0 {font-weight:bold;font-size:0.954313;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_294599008">
+   <path id="_294599440" class="fil0" d="M0.199997 0l1.37533 0c0.11,0 0.199997,0.0900002 0.199997,0.199997l0 1.05217c0,0.109996 -0.0900002,0.199997 -0.199997,0.199997l-1.37533 0c-0.109996,0 -0.199997,-0.0899963 -0.199997,-0.199997l0 -1.05217c0,-0.11 0.0899963,-0.199997 0.199997,-0.199997z"/>
+   <g>
+    <text x="0.217658" y="1.06764" id="_294598744" class="fil1 fnt0">X</text>
+    <text x="0.785517" y="0.86286" id="_294599344" class="fil1 fnt1">RAY</text>
+   </g>
+  </g>
+ </g>
+</svg>
