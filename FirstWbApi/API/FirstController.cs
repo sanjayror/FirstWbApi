@@ -19,6 +19,9 @@ namespace FirstWbApi.Controllers
             var objlist = clas.GetAll();
             return Ok(objlist);
 
+
+
+
         }
 
         [HttpPost]
