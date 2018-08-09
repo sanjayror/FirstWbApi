@@ -19,7 +19,7 @@ namespace FirstWbApi.Controllers
             var objlist = clas.GetAll();
             return Ok(objlist);
             //sbyte sd sdf
-
+            //Write comment here.
 
 
         }
